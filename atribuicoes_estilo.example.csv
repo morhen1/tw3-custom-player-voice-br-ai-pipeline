@@ -1,0 +1,11 @@
+id_hex;estilo
+0x00000000;conversa_neutra
+0x00000001;investigacao_observacional
+0x00000002;pergunta_cautelosa
+0x00000003;alerta_tenso
+0x00000004;confronto_firme
+0x00000005;combate_agressivo
+0x00000006;ironia_seca
+0x00000007;tristeza_contida
+0x00000008;narrativa_contida
+

@@ -1,0 +1,5 @@
+termo_original;texto_fonetico;escopo;status_revisao;exemplo_id
+Dijkstra;Díkistra;termo_inteiro;aprovado;0x00000000
+Olgierd;Olguer;termo_inteiro;aprovado;0x00000000
+Olgierd von Everec;Olgier von Everec;frase_exata;aprovado;0x00000000
+

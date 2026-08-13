@@ -1,0 +1,45 @@
+name: Defeito de fala
+description: Relate pronúncia, pausa, corte, ruído, duração ou identidade vocal.
+title: "[fala] "
+labels: ["audio-review"]
+body:
+  - type: markdown
+    attributes:
+      value: Não anexe áudio extraído do jogo, referências privadas ou arquivos w3speech.
+  - type: input
+    id: speech_id
+    attributes:
+      label: ID hexadecimal
+      placeholder: 0x00123456
+  - type: input
+    id: text
+    attributes:
+      label: Texto aproximado
+    validations:
+      required: true
+  - type: input
+    id: context
+    attributes:
+      label: Missão ou contexto
+  - type: dropdown
+    id: category
+    attributes:
+      label: Tipo de defeito
+      options:
+        - Pronúncia
+        - Português ou pronome
+        - Pausa ou ritmo
+        - Corte no início ou final
+        - Ruído ou vazamento
+        - Duração
+        - Identidade vocal
+        - Outro
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Detalhes
+    validations:
+      required: true
+

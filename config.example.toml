@@ -1,0 +1,45 @@
+[projeto]
+personagem = "geralda_com_jogadora_feminina"
+idioma_id = "pt"
+idioma_nome = "Portuguese (Brazil)"
+
+[arquivos]
+linhas_csv = 'dados/grlt.lines.csv'
+correcoes_csv = 'correcoes.csv'
+duracoes_csv = 'trabalho/duracoes_originais.csv'
+manifesto_csv = 'trabalho/manifesto_preparacao.csv'
+jsonl = 'trabalho/omnivoice.jsonl'
+wav_bruto = 'saida/wav_bruto'
+wav_final = 'saida/wav_final'
+wem_mono = 'saida/wem_opus_mono'
+wem_estereo = 'saida/wem_opus_stereo'
+
+[voz]
+# Referência única de fallback. As nove referências ficam no arquivo local
+# baseado em referencias_voz.example.toml.
+referencia_wav = 'private/referencia_voz.wav'
+referencia_texto = 'private/referencia_voz.txt'
+
+[omnivoice]
+executavel = 'omnivoice-infer-batch'
+modelo = 'k2-fsa/OmniVoice'
+num_step = 32
+guidance_scale = 1.8
+nj_per_gpu = 1
+batch_size = 1
+tamanho_lote = 250
+
+[pos_processamento]
+silencio_db = -45.0
+padding_borda_ms = 80.0
+tolerancia_acima_pct = 15.0
+tolerancia_acima_segundos = 0.50
+velocidade_maxima = 1.20
+duracao_minima_razao = 0.60
+loudness_lufs = -23.0
+workers = 2
+
+[wwise]
+versao = '2021.1.7.7796'
+shareset_mono = 'WEMOpusSpeech'
+shareset_estereo = 'WEMOpusSpeechStereo'

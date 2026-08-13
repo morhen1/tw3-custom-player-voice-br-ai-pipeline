@@ -1,0 +1,69 @@
+[estilos]
+padrao = "conversa_neutra"
+
+# Copie este arquivo para referencias_voz.local.toml e mantenha todos os
+# áudios, textos e prompts dentro de private/, que é ignorada pelo Git.
+
+[referencias.conversa_neutra]
+enabled = true
+ref_audio = "private/referencias/conversa_neutra.wav"
+ref_text_file = "private/referencias/conversa_neutra.txt"
+prompt = "private/referencias/conversa_neutra.pt"
+preprocess_prompt = true
+
+[referencias.investigacao_observacional]
+enabled = true
+ref_audio = "private/referencias/investigacao_observacional.wav"
+ref_text_file = "private/referencias/investigacao_observacional.txt"
+prompt = "private/referencias/investigacao_observacional.pt"
+preprocess_prompt = true
+
+[referencias.pergunta_cautelosa]
+enabled = true
+ref_audio = "private/referencias/pergunta_cautelosa.wav"
+ref_text_file = "private/referencias/pergunta_cautelosa.txt"
+prompt = "private/referencias/pergunta_cautelosa.pt"
+preprocess_prompt = true
+
+[referencias.alerta_tenso]
+enabled = true
+ref_audio = "private/referencias/alerta_tenso.wav"
+ref_text_file = "private/referencias/alerta_tenso.txt"
+prompt = "private/referencias/alerta_tenso.pt"
+preprocess_prompt = true
+
+[referencias.confronto_firme]
+enabled = true
+ref_audio = "private/referencias/confronto_firme.wav"
+ref_text_file = "private/referencias/confronto_firme.txt"
+prompt = "private/referencias/confronto_firme.pt"
+preprocess_prompt = true
+
+[referencias.combate_agressivo]
+enabled = true
+ref_audio = "private/referencias/combate_agressivo.wav"
+ref_text_file = "private/referencias/combate_agressivo.txt"
+prompt = "private/referencias/combate_agressivo.pt"
+preprocess_prompt = true
+
+[referencias.ironia_seca]
+enabled = true
+ref_audio = "private/referencias/ironia_seca.wav"
+ref_text_file = "private/referencias/ironia_seca.txt"
+prompt = "private/referencias/ironia_seca.pt"
+preprocess_prompt = true
+
+[referencias.tristeza_contida]
+enabled = true
+ref_audio = "private/referencias/tristeza_contida.wav"
+ref_text_file = "private/referencias/tristeza_contida.txt"
+prompt = "private/referencias/tristeza_contida.pt"
+preprocess_prompt = true
+
+[referencias.narrativa_contida]
+enabled = true
+ref_audio = "private/referencias/narrativa_contida.wav"
+ref_text_file = "private/referencias/narrativa_contida.txt"
+prompt = "private/referencias/narrativa_contida.pt"
+preprocess_prompt = true
+

@@ -1,0 +1,48 @@
+# Vozes, prompts e documentos privados
+private/
+consentimento/
+*.pt
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# Entradas e saídas grandes ou derivadas
+dados/*.lines.csv
+dados/duracoes*.csv
+trabalho/
+saida/
+release/
+relatorios/
+*.wem
+*.w3speech
+*.bnk
+*.zip
+*.7z
+*.rar
+*.xlsx
+
+# Configuração local e credenciais
+.env
+.env.*
+!.env.example
+config.local.toml
+referencias_voz.local.toml
+referencias_voz.toml
+atribuicoes_estilo.csv
+pronuncias.csv
+correcoes.csv
+*credentials*
+*secret*
+
+# Ambientes, caches e IDEs
+.cache/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+.pytest_cache/
+.idea/
+.vscode/
+

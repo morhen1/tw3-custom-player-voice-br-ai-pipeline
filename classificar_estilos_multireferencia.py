@@ -122,7 +122,8 @@ def count_matches(text: str, fragments: tuple[tuple[str, float], ...]) -> tuple[
     for fragment, weight in fragments:
         prefix = fragment.endswith("*")
         token = fragment[:-1] if prefix else fragment
-        pattern = rf"(?<!\w){re.escape(token)}{'\\w*' if prefix else ''}(?!\w)"
+        suffix = r"\w*" if prefix else ""
+        pattern = rf"(?<!\w){re.escape(token)}{suffix}(?!\w)"
         if re.search(pattern, text):
             score += weight
             found.append(token)

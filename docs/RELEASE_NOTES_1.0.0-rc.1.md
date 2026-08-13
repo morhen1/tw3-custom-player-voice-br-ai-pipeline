@@ -18,9 +18,12 @@ português brasileiro.
 
 ## Integridade
 
+- pacote: `TW3_Custom_Player_Voice_BR_Feminina_v1.0.0-rc.1.7z`;
+- tamanho do pacote: 1.126.250.789 bytes;
+- SHA-256 do pacote: `A5889CBB1C668CD71CF3DFB6BF5C414CEE4152DC6D235E996AAD8C631E1261D4`;
 - arquivo interno: `modCustomPlayerVoiceBR_Feminina/content/brpc.w3speech`;
-- tamanho: 1.200.855.572 bytes;
-- SHA-256: `F35F986964F18111E2D0DB1CDDE0ED5766B1E4BB14755E47E1A040F67495334E`.
+- tamanho interno: 1.200.855.572 bytes;
+- SHA-256 interno: `F35F986964F18111E2D0DB1CDDE0ED5766B1E4BB14755E47E1A040F67495334E`.
 
 ## Avisos
 
